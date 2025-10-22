@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
- 
- class ResultScreen extends StatelessWidget {
- final String ocrText;
- 
+import 'home_screen.dart';
+
+class ResultScreen extends StatelessWidget {
+  final String ocrText;
+
   const ResultScreen({super.key, required this.ocrText});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,10 +16,20 @@ import 'package:flutter/material.dart';
           child: SelectableText(
             ocrText.isEmpty
                 ? 'Tidak ada teks ditemukan.'
-                : ocrText.replaceAll('\n', ' '),
+                : ocrText,
             style: const TextStyle(fontSize: 18),
           ),
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.pushAndRemoveUntil(
+            context,
+            MaterialPageRoute(builder: (context) => const HomeScreen()),
+            (Route<dynamic> route) => false,
+          );
+        },
+        child: const Icon(Icons.home),
       ),
     );
   }
