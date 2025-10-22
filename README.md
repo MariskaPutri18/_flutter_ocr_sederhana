@@ -2,15 +2,15 @@
 
 A new Flutter project.
 
-## Getting Started
+## PRAKTIKUM 4: Menerapkan Widget Dasar
 
-This project is a starting point for a Flutter application.
+![Screenshot ocr](images/01.png)
+![Screenshot ocr](images/02.png)
+![Screenshot ocr](images/03.png)
+![Screenshot ocr](images/04.png)
+![Screenshot ocr](images/05.png)
+![Screenshot ocr](images/06.png)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### LAPORAN 
+Untuk dokumentasi dan pembahasan lengkap praktikum ini, terdapat pada link berikut:
+https://drive.google.com/file/d/18pvq8DxbQwJJqNIzQCulrvR-jiSPze28/view?usp=drive_link
